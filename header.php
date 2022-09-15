@@ -3,8 +3,6 @@
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118240558-2"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7148300905293580"
-     crossorigin="anonymous"></script>	
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,6 +12,8 @@
 </script>
 	<?php wp_head(); ?>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7148300905293580"
+     crossorigin="anonymous"></script>	
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
